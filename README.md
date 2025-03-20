@@ -1,16 +1,21 @@
-# Secure-Auth-System
+# 🌟 Secure-Auth-System
 
 A robust, full-stack User Authentication and Management System built with **Spring Boot (Java)** and **React (JavaScript/TypeScript)**. This project implements secure authentication mechanisms using **JWT (JSON Web Tokens)** and integrates them with a modern, user-friendly React frontend.
 
-## 🔒 Features
-- JWT-based Authentication for secure API access.
-- Password hashing for enhanced security.
-- User roles and authorization with Spring Security.
-- Seamless API integration between frontend and backend.
-- Dynamic content management based on user roles.
-- Comprehensive JUnit testing for all backend services.
+---
 
-## 📂 Project Structure
+## 📌 Project Overview
+This project provides a complete authentication system featuring:
+- ✅ Secure JWT Authentication for API communication.
+- 🔑 Password hashing for user credentials protection.
+- 👥 User roles and authorization handling with Spring Security.
+- 🔗 Seamless integration between backend and frontend.
+- 📋 Comprehensive JUnit testing for backend services.
+- 💎 Aesthetic and responsive UI built with React and TailwindCSS.
+
+---
+
+## 🧰 Technologies Used
 ### Backend (Spring Boot)
 - Java 17
 - Spring Boot 3.x
@@ -27,11 +32,30 @@ A robust, full-stack User Authentication and Management System built with **Spri
 - React Router for navigation
 - Hooks and Context API for state management
 
+---
+
+## ⚙️ Project Structure
+```
+Secure-Auth-System
+│
+├── backend  (Spring Boot Application)
+│   ├── src
+│   └── pom.xml
+│
+├── frontend (React Application)
+│   ├── src
+│   └── package.json
+│
+└── README.md
+```
+
+---
+
 ## 🚀 Getting Started
 ### Backend
 1. Clone the repository:
 ```bash
- git clone https://github.com/Batuhan-Yalcin/Secure-Auth-System.git
+git clone https://github.com/Batuhan-Yalcin/Secure-Auth-System.git
 ```
 2. Navigate to the backend directory:
 ```bash
@@ -60,13 +84,17 @@ npm install
 npm start
 ```
 
+---
+
 ## 🔧 Testing
 Run backend tests with:
 ```bash
 mvn test
 ```
 
-## 📌 Endpoints
+---
+
+## 🌐 API Endpoints
 | Method | URL                | Description            |
 |--------|--------------------|------------------------|
 | POST   | /api/auth/register  | Register a new user    |
@@ -74,12 +102,12 @@ mvn test
 | GET    | /api/users          | Get all users (Admin)   |
 | DELETE | /api/users/{id}     | Delete user by ID      |
 
-## 💡 Technologies Used
-- **Backend:** Spring Boot, Spring Security, JPA, Hibernate, Maven
-- **Frontend:** React, Axios, TailwindCSS, React Router
+---
 
 ## 📜 License
 This project is licensed under the MIT License.
+
+---
 
 ## 📣 Author
 Developed by **Batuhan Yalçın**. Feel free to reach out for collaboration or inquiries.
