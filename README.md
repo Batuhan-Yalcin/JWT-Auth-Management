@@ -55,11 +55,11 @@ Secure-Auth-System
 ### Backend
 1. Clone the repository:
 ```bash
-git clone https://github.com/Batuhan-Yalcin/Secure-Auth-System.git
+git clone https://github.com/Batuhan-Yalcin/JWT-Auth-Management.git
 ```
 2. Navigate to the backend directory:
 ```bash
-cd Secure-Auth-System/backend
+cd JWT-Auth-Management/backend
 ```
 3. Install dependencies and build the project:
 ```bash
@@ -73,7 +73,7 @@ mvn spring-boot:run
 ### Frontend
 1. Navigate to the frontend directory:
 ```bash
-cd Secure-Auth-System/frontend
+cd JWT-Auth-Management/frontend
 ```
 2. Install dependencies:
 ```bash
