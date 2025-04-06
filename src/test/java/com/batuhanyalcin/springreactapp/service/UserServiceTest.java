@@ -36,7 +36,6 @@ public class UserServiceTest {
     private UserService userService;
 
     private User testUser;
-    private UserDTO testUserDTO;
     private UserUpdateDTO testUserUpdateDTO;
     private PasswordUpdateDTO testPasswordUpdateDTO;
 

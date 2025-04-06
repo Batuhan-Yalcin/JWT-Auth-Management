@@ -129,17 +129,15 @@ public class AuthControllerTest {
 
     @Test
     void testAuthenticateUserWithWrongPassword() throws Exception {
-        // Test kullanıcısını oluştur
         User user = new User();
         user.setUsername("testuser");
         user.setEmail("test@example.com");
         user.setPassword(passwordEncoder.encode("Test123!"));
         userRepository.save(user);
 
-        // Yanlış şifre ile giriş dene
         LoginDTO loginDTO = new LoginDTO();
         loginDTO.setUsername("testuser");
-        loginDTO.setPassword("WrongPassword123!");
+        loginDTO.setPassword("WrongPassword123");
 
         mockMvc.perform(post("/api/auth/signin")
                 .contentType(MediaType.APPLICATION_JSON)
