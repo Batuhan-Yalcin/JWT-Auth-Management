@@ -16,5 +16,4 @@ public class SpringreactappApplication {
 	public static void main(String[] args) {
 		SpringApplication.run(SpringreactappApplication.class, args);
 	}
-
 }

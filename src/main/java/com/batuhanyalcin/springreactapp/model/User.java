@@ -9,7 +9,9 @@ import lombok.Data;
 import lombok.NoArgsConstructor;
 
 import java.util.HashSet;
+import java.util.List;
 import java.util.Set;
+
 
 @Data
 @NoArgsConstructor
@@ -37,6 +39,8 @@ public class User {
     @NotBlank
     @Size(max = 120)
     private String password;
+    
+   
 
     @ManyToMany(fetch = FetchType.LAZY)
     @JoinTable(name = "user_roles",
@@ -49,4 +53,10 @@ public class User {
         this.email = email;
         this.password = password;
     }
+    
+    @OneToMany(cascade = CascadeType.ALL)
+   private List<Transaction> transactionList;
+    
+    
+    
 } 
